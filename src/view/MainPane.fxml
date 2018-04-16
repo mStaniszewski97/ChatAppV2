@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+   <children>
+      <TextField fx:id="ipText" layoutX="226.0" layoutY="163.0" promptText="ip to server" AnchorPane.bottomAnchor="212.0" AnchorPane.leftAnchor="226.0" AnchorPane.rightAnchor="225.0" AnchorPane.topAnchor="163.0" />
+      <TextField fx:id="nickText" layoutX="226.0" layoutY="207.0" promptText="nickname" AnchorPane.bottomAnchor="168.0" AnchorPane.leftAnchor="226.0" AnchorPane.rightAnchor="225.0" AnchorPane.topAnchor="207.0" />
+      <Button fx:id="startButton" layoutX="334.0" layoutY="264.0" mnemonicParsing="false" onAction="#onClick" text="Start" AnchorPane.bottomAnchor="111.0" AnchorPane.leftAnchor="334.0" AnchorPane.rightAnchor="225.0" AnchorPane.topAnchor="264.0" />
+      <RadioButton fx:id="radioButton1" layoutX="226.0" layoutY="251.0" mnemonicParsing="false" text="RadioButton" AnchorPane.bottomAnchor="132.0" AnchorPane.leftAnchor="226.0" AnchorPane.rightAnchor="287.0" AnchorPane.topAnchor="251.0" />
+      <RadioButton fx:id="radioButton2" layoutX="226.0" layoutY="276.0" mnemonicParsing="false" text="RadioButton" AnchorPane.bottomAnchor="107.0" AnchorPane.leftAnchor="226.0" AnchorPane.rightAnchor="287.0" AnchorPane.topAnchor="276.0" />
+   </children>
+</AnchorPane>
